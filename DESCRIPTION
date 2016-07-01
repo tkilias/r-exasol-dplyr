@@ -1,0 +1,27 @@
+Package: exasol.dplyr
+Type: Package
+Title: Dplyr addon for the EXASOL R package
+Version: 0.1
+Date: 2016-07-01
+Author: EXASOL AG & Community
+Maintainer: Marcel Boldt <marcel.boldt@exasol.com>
+Depends:
+    R (>= 3.3.0),
+    DBI (>= 0.4.1),
+    dplyr (>= 0.5.0),
+    exasol (>= 5.3.0)
+Imports:
+    methods,
+    RODBC (>= 1.3-12),
+    assertthat
+Description: This package provides the functionality to use the dplyr package
+    with the EXASOL database.
+License: BSD_3_clause + file LICENSE
+URL: https://github.com/EXASOL/r-exasol-dplyr https://www.exasol.com/portal
+LazyData: yes
+Suggests:
+    testthat,
+    DBItest
+SystemRequirements: EXASOL DB v5 onwards
+BugReports: https://github.com/EXASOL/r-exasol-dplyr/issues
+RoxygenNote: 5.0.1
