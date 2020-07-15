@@ -1,4 +1,4 @@
 library(testthat)
-library(exasol-dplyr)
+library(exasol.dplyr)
 
-test_check("exasol-dplyr")
+test_check("exasol.dplyr")
