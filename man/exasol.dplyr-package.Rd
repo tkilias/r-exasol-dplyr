@@ -2,8 +2,8 @@
 % Please edit documentation in R/exasol.dplyr.R
 \docType{package}
 \name{exasol.dplyr-package}
-\alias{exasol.dplyr}
 \alias{exasol.dplyr-package}
+\alias{exasol.dplyr}
 \title{Dplyr addon for the exasol R package}
 \description{
 This package adds dplyr compatibility to the EXASOL R package.
@@ -18,11 +18,6 @@ EXASOL is an InMemory RDBMS that runs in a MPP cluster (shared-nothing) environm
 benckmark, it is considered the fastest analytical data warehouse available. The community edition
 can be downloaded for free on \url{https://www.exasol.com/portal}.
 }
-\author{
-EXASOL AG & Community
-
-Maintainer: \packageMaintainer{exasol.dplyr}
-}
 \references{
 \enumerate{
 \item The development version of the package is available on \url{https://github.com/EXASOL/r-exasol}
@@ -31,8 +26,12 @@ Maintainer: \packageMaintainer{exasol.dplyr}
 \item Q & A: \url{https://www.exasol.com/portal/questions}
 }
 }
+\author{
+EXASOL AG & Community
+
+Maintainer: \packageMaintainer{exasol.dplyr}
+}
 \keyword{distributed}
 \keyword{dplyr}
 \keyword{in-memory}
 \keyword{sql}
-

@@ -4,8 +4,15 @@
 \alias{src_exasol}
 \title{Create a dplyr connection to an EXASOL DB.}
 \usage{
-src_exasol(host, port = 8563, user = "sys", password = "exasol", ...,
-  dsn = NULL, driver = NULL)
+src_exasol(
+  host,
+  port = 8563,
+  user = "sys",
+  password = "exasol",
+  ...,
+  dsn = NULL,
+  driver = NULL
+)
 }
 \description{
 Create a dplyr connection to an EXASOL DB.

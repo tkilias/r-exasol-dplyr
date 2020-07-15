@@ -24,4 +24,4 @@ Suggests:
     DBItest
 SystemRequirements: EXASOL DB v5 onwards
 BugReports: https://github.com/EXASOL/r-exasol-dplyr/issues
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.1
